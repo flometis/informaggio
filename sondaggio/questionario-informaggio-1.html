@@ -1,0 +1,74 @@
+<html>
+<meta charset="UTF-8">
+<body>
+
+<form action="dati.php" method="post">
+<input type="hidden" name="page" value="1"></input>
+<input type="hidden" id="uid" name="uid" value=""></input>
+<script>
+var myParam = location.search.split('uid=')[1];
+document.getElementById('uid').value = myParam;
+</script>
+<p>Indica il tuo livello di competenze seguendo le descrizioni del quadro europeo:</p>
+
+<h3>Elaborazione delle informazioni</h3>
+<fieldset>
+<input type="radio" name="elaborazioneinformazioni" value="base"> Posso cercare informazioni online utilizzando un motore di ricerca.So che non tutte le informazioni on-line sono affidabili.Posso salvare o memorizzare file o contenuto (ad esempio testi, immagini, musica, video,  pagine web) e recuperare una volta salvate o archiviate.<br>
+<input type="radio" name="elaborazioneinformazioni" value="medio"> Posso utilizzare diversi motori di ricerca per trovare le informazioni. Uso filtri per la ricerca (ad esempio,cerca solo immagini, video, mappe). Paragono fonti diverse per valutare l'attendibilità delle informazioni. Classifico le informazioni in modo metodico utilizzando i file e le cartelle per individuarli piu facilmente. Faccio il backup di informazioni o file che ho memorizzato.<br>
+<input type="radio" name="elaborazioneinformazioni" value="avanzato"> Posso usare strategie di ricerca avanzata (ad esempio utilizzando operatori di ricerca) per trovare informazioni affidabili su Internet. Posso usare i feed web (come RSS) per essere aggiornato sui contenuti che mi interessano. Posso valutare la validità e credibilità delle informazioni utilizzando una serie di criteri. Sono a conoscenza di nuovi progressi nella ricerca di informazioni, archiviazione e recupero. Posso salvare le informazioni trovate su Internet in diversi formati. Posso utilizzare i servizi cloud di storage delle informazioni.<br>
+<input type="radio" name="elaborazioneinformazioni" value="nessuno"> Non ho abbastanza competenze per rientrare in nessuna delle tre categorie.<br>
+<input type="radio" name="elaborazioneinformazioni" value="tutto"> Ho più competenze di ciascuna delle categorie presentate.<br>
+</fieldset>
+
+<hr>
+
+<h3>Creazione di contenuti</h3>
+<fieldset>
+<input type="radio" name="creazionecontenuti" value="base"> Posso produrre semplici contenuti digitali (ad esempio, testo, tabelle, immagini, file audio) in almeno un formato utilizzando strumenti digitali. Posso fare l'editing di base di contenuti prodotti da altri. So che il contenuto può essere coperto da diritto d'autore. Posso applicare e modificare semplici funzioni e impostazioni del software e delle applicazioni che uso (ad esempio cambiare le impostazioni di default). <br>
+<input type="radio" name="creazionecontenuti" value="medio"> Posso produrre contenuti digitali complessi in diversi formati (ad esempio di testo, tabelle, immagini, file audio). Posso usare strumenti/editor per la creazione di pagine web o blog utilizzando modelli (ad esempio WordPress). Posso applicare la formattazione di base (ad esempio, inserire note, grafici, tabelle) ai contenuti che io o altri hanno prodotto. So come riutilizzare i contenuti coperti da diritto d'autore.Conosco le basi di un linguaggio di programmazione.<br>
+<input type="radio" name="creazionecontenuti" value="avanzato"> Posso produrre o modificare il complesso, contenuti multimediali in diversi formati, utilizzando una varietà di piattaforme digitali, strumenti e ambienti. Posso creare un sito web utilizzando un linguaggio di programmazione. Posso utilizzare le funzioni avanzate di formattazione dei diversi strumenti (ad esempio, stampa unione, i documenti oggetto di fusione di diversi formati, utilizzando formule avanzate, macro). So come applicare licenze e diritti d'autore. Posso utilizzare diversi linguaggi di programmazione. Io so progettare, creare e modificare i database con uno strumento informatico.<br>
+<input type="radio" name="creazionecontenuti" value="nessuno"> Non ho abbastanza competenze per rientrare in nessuna delle tre categorie.<br>
+<input type="radio" name="creazionecontenuti" value="tutto"> Ho più competenze di ciascuna delle categorie presentate.<br>
+</fieldset>
+
+<hr>
+
+<h3>Comunicazione</h3>
+<fieldset>
+<input type="radio" name="comunicazione" value="base"> Posso comunicare utilizzando il telefono cellulare, Voice over IP (ad esempio Skype) e-mail o chat utilizzando le funzionalità di base (ad esempio messaggi vocali, SMS, inviare e ricevere e-mail, scambio di testo). Posso condividere file e contenuti con semplici strumenti.So che posso utilizzare le tecnologie digitali per interagire con alcuni servizi (come governi, banche, ospedali). Sono a conoscenza di siti di social networking e strumenti di collaborazione online.Sono consapevole del fatto che quando si utilizzano strumenti digitali, vengono applicate alcune regole di comunicazione (ad esempio, la condivisione delle informazioni personali).<br>
+<input type="radio" name="comunicazione" value="medio"> Posso utilizzare le funzioni avanzate di diversi strumenti di comunicazione (ad esempio utilizzando Voice over IP e la condivisione di file). Posso usare strumenti di collaborazione e contribuire a condividere documenti / file che qualcun altro ha creato. Posso utilizzare alcune funzionalità di servizi on-line (ad esempio servizi pubblici, e-banking, lo shopping online). Trasmetto o condivido la conoscenza con gli altri online (ad esempio attraverso strumenti di social networking o in comunità online).Conosco e utilizzo le regole della comunicazione online ("netiquette").<br>
+<input type="radio" name="comunicazione" value="avanzato"> Uso una vasta gamma di strumenti di comunicazione (posta elettronica, chat, SMS, messaggistica istantanea, blog, micro-blog, reti sociali) per la comunicazione on-line.Posso creare e gestire i contenuti con strumenti di collaborazione (ad esempio calendari elettronici, i sistemi di gestione del progetto, di correzione in linea, fogli di calcolo on-line).Partecipo attivamente a spazi online e utilizzo diversi servizi online (ad esempio servizi pubblici, e-banking, lo shopping online).Posso utilizzare le funzioni avanzate di strumenti di comunicazione (ad esempio, videoconferenza, condivisione di dati, condivisione di applicazioni).<br>
+<input type="radio" name="comunicazione" value="nessuno"> Non ho abbastanza competenze per rientrare in nessuna delle tre categorie.<br>
+<input type="radio" name="comunicazione" value="tutto"> Ho più competenze di ciascuna delle categorie presentate.<br>
+</fieldset>
+
+<hr>
+
+<h3>Risoluzione di problemi</h3>
+<fieldset>
+<input type="radio" name="risoluzioneproblemi" value="base"> Posso trovare il supporto e assistenza quando sorge un problema tecnico o quando si utilizza un nuovo dispositivo, programma o applicazione. Io so come risolvere i problemi di routine Alcuni (ad esempio chiudere un programma, riavviare il computer, re-installare il programma/aggiornarlo, controllare la connessione internet). Io so che gli strumenti digitali possono aiutare a risolvere i problemi ma so anche che hanno i loro limiti. Di fronte ad un problema di natura tecnologica o non tecnologica, posso utilizzare gli strumenti digitali che conosco per risolverlo. So che devo aggiornare regolarmente le mie competenze digitali.<br>
+<input type="radio" name="risoluzioneproblemi" value="medio"> Posso risolvere la maggior parte dei problemi più frequenti che sorgono quando si utilizzano tecnologie digitali. Posso usare le tecnologie digitali per risolvere i problemi (non tecnici). Scelgo lo strumento digitale che si adatta alle mie esigenze e valuto la sua efficacia.Posso risolvere problemi tecnologici esplorando le impostazioni e i parametri di programmi o strumenti. Regolarmente aggiorno le mie competenze digitali. Sono consapevole dei miei limiti e cerco di colmare le mie lacune.<br>
+<input type="radio" name="risoluzioneproblemi" value="avanzato"> Posso risolvere tutti i problemi che sorgono utilizzando la tecnologia digitale. Posso scegliere il giusto strumento, dispositivo, applicazioni, software o servizi per risolvere i problemi non tecnici. Sono a conoscenza di nuovi sviluppi tecnologici. Capisco come funzionano nuovi strumenti di lavoro.Spesso aggiorno le mie competenze digitali.<br>
+<input type="radio" name="risoluzioneproblemi" value="nessuno"> Non ho abbastanza competenze per rientrare in nessuna delle tre categorie.<br>
+<input type="radio" name="risoluzioneproblemi" value="tutto"> Ho più competenze di ciascuna delle categorie presentate.<br>
+</fieldset>
+
+<hr>
+
+<h3>Sicurezza</h3>
+<fieldset>
+<input type="radio" name="sicurezza" value="base"> Posso prendere accorgimenti fondamentali per proteggere i miei dispositivi (ad esempio, utilizzando anti-virus e password). So che non tutte le informazioni on-line sono affidabili.So che le mie credenziali (username e password) possono essere rubati. So che non devo  rivelare informazioni private on-line.So che l'eccessivo utilizzo di tecnologia digitale può influenzare negativamente la mia salute.Prendo le misure fondamentali per il risparmio energetico.<br>
+<input type="radio" name="sicurezza" value="medio"> Ho installato i programmi di sicurezza sul dispositivo (s) che uso per accedere a Internet (ad esempio antivirus, firewall). Utilizzo questi programmi e li aggiorno regolarmente.Io uso diverse password per accedere a dispositivi e servizi digitali e le modifico periodicamente.So identificare i siti web o messaggi di posta elettronica che possono essere utilizzati per truffa. So identificare una e-mail di phishing. Posso modificare la  mia linea identità digitale e tenere traccia della mia impronta digitale.Capisco i rischi sanitari connessi con l'uso della tecnologia digitale (es ergonomia, rischio di dipendenza). Capisco l'impatto positivo e negativo della tecnologia sull'ambiente.<br>
+<input type="radio" name="sicurezza" value="avanzato"> Posso controllare frequentemente la configurazione e i sistemi di sicurezza dei dispositivi e/o delle applicazioni  che uso.Io so che fare se il computer è stato infettato da un virus.Posso configurare o modificare le impostazioni del firewall e di sicurezza dei miei dispositivi digitali.Io so come crittografare le email o file.Posso applicare filtri per le email (spam).Per evitare problemi di salute (fisica e psicologica), faccio un uso ragionevole delle tecnologie dell'informazione e della comunicazione.Ho un parere informato sull'impatto delle tecnologie digitali sulla vita di tutti i giorni, il consumo on-line, e l'ambiente.<br>
+<input type="radio" name="sicurezza" value="nessuno"> Non ho abbastanza competenze per rientrare in nessuna delle tre categorie.<br>
+<input type="radio" name="sicurezza" value="tutto"> Ho più competenze di ciascuna delle categorie presentate.<br>
+</fieldset>
+
+<hr>
+
+
+<p>Invia e passa alla prossima sezione</p>
+<input type="submit"/>
+</form>
+</body>
+</html>

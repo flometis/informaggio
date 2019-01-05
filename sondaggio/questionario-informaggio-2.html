@@ -1,0 +1,200 @@
+<html>
+<meta charset="UTF-8">
+<body>
+
+<form action="dati.php" method="post">
+<input type="hidden" name="page" value="2"></input>
+<input type="hidden" id="uid" name="uid" value=""></input>
+<script>
+var myParam = location.search.split('uid=')[1];
+document.getElementById('uid').value = myParam;
+</script>
+Adesso ti chiediamo di rispondere alle seguenti domande. Scegli la risposta che ti sembra più adeguata. Puoi anche scegliere più di una risposta per ogni domanda: scegli più risposte solo quando lo ritieni necessario. 
+Ti chiediamo sempre di rispondere in modo sincero e senza cercare suggerimenti. Grazie!
+
+<p>Un file RAR è:</p>
+<fieldset>
+<input type="checkbox" name="file rar[]" value="archivio compresso">Un archivio compresso</br>
+<input type="checkbox" name="file rar[]" value="immagine">Un tipo di immagine</br>
+<input type="checkbox" name="file rar[]" value="installer">Uno strumento per installare programmi</br>
+<input type="checkbox" name="file rar[]" value="word">Un file di Microsoft Word</br>
+<input type="checkbox" name="file rar[]" value="Non so">Non so</br>
+</fieldset>
+
+<hr>
+
+<p>Per creare un testo in PDF:</p>
+<fieldset>
+<input type="checkbox" name="creazione pdf[]" value="stampo e scansiono">Lo stampo e lo passo allo scanner</br>
+<input type="checkbox" name="creazione pdf[]" value="ocr">Uso un programma OCR</br>
+<input type="checkbox" name="creazione pdf[]" value="salvo da word">Lo salvo da Word (o altro programma di elaborazione testi)</br>
+<input type="checkbox" name="creazione pdf[]" value="Adobe Reader">Lo apro con Adobe Reader</br>
+<input type="checkbox" name="creazione pdf[]" value="Non so">Non so</br>
+</fieldset>
+
+<hr>
+
+<p>Quali di questi sono linguaggi di markup?</p>
+<fieldset>
+<input type="checkbox" name="markup[]" value="wordpress">WordPress</br>
+<input type="checkbox" name="markup[]" value="javascript">javascript</br>
+<input type="checkbox" name="markup[]" value="html">HTML</br>
+<input type="checkbox" name="markup[]" value="xml">XML</br>
+<input type="checkbox" name="markup[]" value="latex">LaTeX</br>
+<input type="checkbox" name="markup[]" value="excel">Excel</br>
+<input type="checkbox" name="markup[]" value="jpeg">JPEG</br>
+<input type="checkbox" name="markup[]" value="linux">Linux</br>
+<input type="checkbox" name="markup[]" value="Non so">Non so</br>
+</fieldset>
+
+<p>Cosa fa parte dell'hardware?</p>
+<fieldset>
+<input type="checkbox" name="hardware[]" value="hard disk">Hard Disk</br>
+<input type="checkbox" name="hardware[]" value="sistema operativo">Sistema Operativo</br>
+<input type="checkbox" name="hardware[]" value="stampante">Stampante</br>
+<input type="checkbox" name="hardware[]" value="supporti SSD">Supporto di memorizzazione SSD</br>
+<input type="checkbox" name="hardware[]" value="cloud computing">Cloud computing</br>
+<input type="checkbox" name="hardware[]" value="cavo hdmi">Cavo HDMI</br>
+<input type="checkbox" name="hardware[]" value="browser">Browser</br>
+<input type="checkbox" name="hardware[]" value="indirizzo IP">Indirizzo IP</br>
+<input type="checkbox" name="hardware[]" value="Non so">Non so</br>
+</fieldset>
+
+
+<p>DuckDuckGO è:</p>
+<fieldset>
+<input type="checkbox" name="duckduckgo[]" value="ecommerce">Un sito di eCommerce</br>
+<input type="checkbox" name="duckduckgo[]" value="p2p">Un programma Peer 2 Peer</br>
+<input type="checkbox" name="duckduckgo[]" value="virus">Un virus informatico</br>
+<input type="checkbox" name="duckduckgo[]" value="motorericerca">Un motore di ricerca</br>
+<input type="checkbox" name="duckduckgo[]" value="Non so">Non so</br>
+</fieldset>
+
+<p>Su quali di questi siti si trovano contenuti affidabili?</p>
+<fieldset>
+<input type="checkbox" name="siti affidabili[]" value="fattoquotidaino">Il fatto quotidaino</br>
+<input type="checkbox" name="siti affidabili[]" value="facebook">Facebook</br>
+<input type="checkbox" name="siti affidabili[]" value="ansa">ANSA</br>
+<input type="checkbox" name="siti affidabili[]" value="wikipedia">Wikipedia</br>
+<input type="checkbox" name="siti affidabili[]" value="corrieredellasera">Corriere della Sera</br>
+<input type="checkbox" name="siti affidabili[]" value="retenews24">ReteNews24</br>
+<input type="checkbox" name="siti affidabili[]" value="treccani">Treccani</br>
+<input type="checkbox" name="siti affidabili[]" value="Non so">Non so</br>
+</fieldset>
+
+
+<p>Quale di questo siti offre una navigazione sicura (crittografata):</p>
+<fieldset>
+<input type="checkbox" name="https[]" value="pornhub">https://www.pornhub.com</br>
+<input type="checkbox" name="https[]" value="units">http://units.it/</br>
+<input type="checkbox" name="https[]" value="musicagratis">https://musicagratis.it</br>
+<input type="checkbox" name="https[]" value="googlemail">http://mail.google.com</br>
+<input type="checkbox" name="https[]" value="unicredit">https://www.unicredit.com</br>
+<input type="checkbox" name="https[]" value="Non so">Non so</br>
+</fieldset>
+
+<hr>
+
+
+<p>"allinurl:" in Google:</p>
+<fieldset>
+<input type="checkbox" name="allinurl[]" value="restringe risultati">restringe la ricerca</br>
+<input type="checkbox" name="allinurl[]" value="non esiste">non esiste</br>
+<input type="checkbox" name="allinurl[]" value="carattere jolly">trova i siti allinurl.it e allinurl.com</br>
+<input type="checkbox" name="allinurl[]" value="dark web">trova siti del dark web</br>
+<input type="checkbox" name="allinurl[]" value="Non so">non so</br>
+</fieldset>
+
+<hr>
+
+
+<p>Su un social network:</p>
+<fieldset>
+<input type="checkbox" name="social network[]" value="tutto pubblico">è tutto pubblico, chiunque vedrà i miei post</br>
+<input type="checkbox" name="social network[]" value="tutto privato">è tutto privato, solo e i miei amici vediamo i miei post</br>
+<input type="checkbox" name="social network[]" value="opzioni privacy">posso decidere di volta in volta chi sarà in grado di leggere ogni mio post</br>
+<input type="checkbox" name="social network[]" value="rimozione definitiva">se rimuovo un contenuto nessuno riuscirà più a vederlo</br>
+<input type="checkbox" name="social network[]" value="Non so">non so</br>
+</fieldset>
+
+<hr>
+
+
+<p>Per l'accesso ai siti:</p>
+<fieldset>
+<input type="checkbox" name="password[]" value="stessa password">uso la stessa password per diversi siti</br>
+<input type="checkbox" name="password[]" value="cambio password">modifico spesso le mie password</br>
+<input type="checkbox" name="password[]" value="scrivo le password">mi scrivo le password su carta per non dimenticarle</br>
+<input type="checkbox" name="password[]" value="nessuna">Nessuna delle precedenti</br>
+<input type="checkbox" name="password[]" value="Non so">Non so</br>
+</fieldset>
+
+<hr>
+
+<p>Se ricevo una email dalla tua banca con un link per aggiornare il mio profilo:</p>
+<fieldset>
+<input type="checkbox" name="phishing[]" value="controllo indirizzo">controllo l'indirizzo del mittente</br>
+<input type="checkbox" name="phishing[]" value="apro link">apro il link per vedere di cosa si tratta</br>
+<input type="checkbox" name="phishing[]" value="cestino">la cestino</br>
+<input type="checkbox" name="phishing[]" value="rispondo">rispondo all'email per chiedere chiarimenti</br>
+<input type="checkbox" name="phishing[]" value="Non so">non so</br>
+</fieldset>
+
+<hr>
+
+
+<p>Su Google posso trovare:</p>
+<fieldset>
+<input type="checkbox" name="google[]" value="tutto">tutto quello che c'è su internet</br>
+<input type="checkbox" name="google[]" value="siti">siti web</br>
+<input type="checkbox" name="google[]" value="non indicizzati">contenuti non indicizzati</br>
+<input type="checkbox" name="google[]" value="illegali">contenuti illegali</br>
+<input type="checkbox" name="google[]" value="Non so">non so</br>
+</fieldset>
+
+<hr>
+
+<p>Se devo inviare una cartella che pesa 2GB:</p>
+<fieldset>
+<input type="checkbox" name="inviocartella[]" value="vari messaggi email">spedisco i file in vari messaggi email</br>
+<input type="checkbox" name="inviocartella[]" value="cd">la metto su un Compact Disk</br>
+<input type="checkbox" name="inviocartella[]" value="google drive">carico la cartella su Google Drive, Dropbox, o simili</br>
+<input type="checkbox" name="inviocartella[]" value="pendrive e posta">la metto una pendrive e la spedisco con posta ordinaria</br>
+<input type="checkbox" name="inviocartella[]" value="ftp">uso FTP</br>
+<input type="checkbox" name="inviocartella[]" value="Non so">non so</br>
+</fieldset>
+
+<hr>
+
+<p>Cosa useresti per scrivere un testo assieme ad altre persone:</p>
+<fieldset>
+<input type="checkbox" name="collaborazione[]" value="via email">invio un file Word via email</br>
+<input type="checkbox" name="collaborazione[]" value="google docs">Google Docs o Dropbox</br>
+<input type="checkbox" name="collaborazione[]" value="wordpress">WordPress</br>
+<input type="checkbox" name="collaborazione[]" value="pendrive">scambio una chiavetta USB</br>
+<input type="checkbox" name="collaborazione[]" value="Non so">Non so</br>
+</fieldset>
+
+<hr>
+
+
+<p>Se compaiono molte finestre del browser con pubblicità:</p>
+<fieldset>
+<input type="checkbox" name="spyware[]" value="formatto">formatto il computer</br>
+<input type="checkbox" name="spyware[]" value="tecnico">mi rivolgo a un tecnico</br>
+<input type="checkbox" name="spyware[]" value="antimalware">avvio un antimalware</br>
+<input type="checkbox" name="spyware[]" value="modalita provvisoria">riavvio in modalità provvisoria</br>
+<input type="checkbox" name="spyware[]" value="riavvio">riavvio più volte il computer</br>
+<input type="checkbox" name="spyware[]" value="altro browser">installo un altro browser</br>
+<input type="checkbox" name="spyware[]" value="google">cerco su Google</br>
+<input type="checkbox" name="spyware[]" value="Non so">Non so</br>
+</fieldset>
+
+<hr>
+
+
+<p>Invia le risposte</p>
+<input type="submit"/>
+</form>
+</body>
+</html>

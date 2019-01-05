@@ -1,0 +1,214 @@
+<html>
+<meta charset="UTF-8">
+<body>
+
+<form action="dati.php" method="post">
+<input type="hidden" name="page" value="0"></input>
+<p>Per dichiarare l'accettazione del trattamento dei dati, scrivi "Accetto" nella casella di testo.
+Autorizzo il trattamento dei miei dati personali presenti nel cv ai sensi del Decreto Legislativo 30 giugno 2003, n. 196 “Codice in materia di protezione dei dati personali” e del GDPR (Regolamento UE 2016/679).</p>
+<div id="testolegale" style="display:none">
+<p>Il trattamento dei dati personali per finalità diverse da quelle per le quali i dati personali sono stati inizialmente raccolti dovrebbe essere consentito solo se compatibile con le finalità per le quali i dati personali sono stati inizialmente raccolti. In tal caso non è richiesta alcuna base giuridica separata oltre a quella che ha consentito la raccolta dei dati personali. Se il trattamento è necessario per l'esecuzione di un compito di interesse pubblico o per l'esercizio di pubblici poteri di cui è investito il titolare del trattamento, il diritto dell'Unione o degli Stati membri può stabilire e precisare le finalità e i compiti per i quali l'ulteriore trattamento è considerato lecito e compatibile. 
+L'ulteriore trattamento a fini di archiviazione nel pubblico interesse, o di ricerca scientifica o storica o a fini statistici dovrebbe essere considerato un trattamento lecito e compatibile. La base giuridica fornita dal diritto dell'Unione o degli Stati membri per il trattamento dei dati personali può anche costituire una base giuridica per l'ulteriore trattamento. Per accertare se la finalità di un ulteriore trattamento sia compatibile con la finalità per la quale i dati personali sono stati inizialmente raccolti, il titolare del trattamento dovrebbe, dopo aver soddisfatto tutti i requisiti per la liceità del trattamento originario, tener conto tra l'altro di ogni nesso tra tali finalità e le finalità dell'ulteriore trattamento previsto, del contesto in cui i dati personali sono stati raccolti, in particolare le ragionevoli aspettative dell'interessato in base alla sua relazione con il titolare del trattamento con riguardo al loro ulteriore utilizzo; della natura dei dati personali; delle conseguenze dell'ulteriore trattamento previsto per gli interessati; e dell'esistenza di garanzie adeguate sia nel trattamento originario sia nell'ulteriore trattamento previsto. Se hai letto fino a questo punto, scrivi "Letto" invece di "Accetto" nella casella di testo. Altrimenti, dovrai offrire una cassa di IPA all'amministratrice del presente sondaggio. Del resto questo disclaimer è finto perché le informazioni sono raccolte in modo completamente anonimo, non trattiamo nessun tuo dato personale. Intanto ti ringraziamo per la partecipazione e per il tuo contributo allo studio. </p>
+</div>
+<p><a href="#" onclick="testolegale.style.display = 'block'; ">Leggi altro</a></p>
+<input type="text" name="disclaimer"></input>
+
+<hr>
+
+<p>Indica il tuo anno di nascita (esempio: 1999):</p>
+<input type="number" name="annonascita" min="1940" max="2010"></input>
+
+<hr>
+
+<p>Sesso:</p>
+<select name="sesso">
+<option value="M">M</option>
+<option value="F">F</option>
+<option value="A">Altro</option>
+</select>
+
+<hr>
+
+<p>Regione di provenienza:</p>
+<select name="regione">
+<option value="Abruzzo">Abruzzo</option>
+<option value="Basilicata">Basilicata</option>
+<option value="Calabria">Calabria</option>
+<option value="Campania">Campania</option>
+<option value="Emilia Romagna">Emilia Romagna</option>
+<option value="Friuli Venezia Giulia">Friuli Venezia Giulia</option>
+<option value="Lazio">Lazio</option>
+<option value="Liguria">Liguria</option>
+<option value="Lombardia">Lombardia</option>
+<option value="Marche">Marche</option>
+<option value="Molise">Molise</option>
+<option value="Piemonte">Piemonte</option>
+<option value="Puglia">Puglia</option>
+<option value="Sardegna">Sardegna</option>
+<option value="Sicilia">Sicilia</option>
+<option value="Toscana">Toscana</option>
+<option value="Trentino Alto Adige">Trentino Alto Adige</option>
+<option value="Umbria">Umbria</option>
+<option value="Valle d'Aosta">Valle d'Aosta</option>
+<option value="Veneto">Veneto</option>
+</select>
+
+<hr>
+
+<p>Corso di laurea:</p>
+<select name="cdl">
+<option value="LT">Laurea triennale</option>
+<option value="LM">Laurea magistrale</option>
+</select>
+
+<hr>
+
+<p>Anno di corso:</p>
+<select name="annocorso">
+<option value="1">Primo</option>
+<option value="2">Secondo</option>
+<option value="3">Terzo</option>
+<option value="F">Fuori corso</option>
+</select>
+
+<hr>
+
+<p>Indica il nome completo del corso di laurea:</p>
+<input type="text" name="nomecorso"></input>
+
+<hr>
+
+<p>Ateneo di appartenenza (esempio "Trieste", "Roma 3"):</p>
+<input type="text" name="ateneo"></input>
+
+<hr>
+
+<p>Da quanti anni usi il computer:</p>
+<input type="number" name="anniuso"></input>
+
+<hr>
+
+<p>Da quanti anni usi internet?</p>
+<input type="number" name="anniinternet"></input>
+
+<hr>
+
+<p>Sei appassionato di informatica?</p>
+<select name="interesse">
+<option value="S">Sì</option>
+<option value="N">No</option>
+</select>
+
+<hr>
+
+<p>Hai un computer personale (fisso o portatile)?</p>
+<select name="computerpersonale">
+<option value="S">Sì</option>
+<option value="N">No</option>
+</select>
+
+<hr>
+
+
+<p>Che sistema operativo hai sul tuo computer?</p>
+<select name="os">
+<option value="Windows">Windows</option>
+<option value="MacOS">MacOS</option>
+<option value="Linux">GNU/Linux</option>
+<option value="nocomputer">Non ho un computer</option>
+<option value="nonso">Non so</option>
+<option value="Altro">Altro</option>
+</select>
+<p>Se hai scelto "altro" specifica: <input type="text" name="altroos"></input></p>
+
+<hr>
+
+
+<p>Quale dispositivo usi principalmente?</p>
+<select name="dispositivo">
+<option value="Portatile">Portatile</option>
+<option value="Fisso">Computer fisso</option>
+<option value="Smartphone">Smartphone</option>
+<option value="Tablet">Tablet</option>
+<option value="Altro">Altro</option>
+</select>
+<p>Se hai scelto "altro" specifica: <input type="text" name="altrodispositivo"></input></p>
+
+<hr>
+
+<p>Per quali attività usi i dispositivi?</p>
+<fieldset>
+<input type="checkbox" name="attivita[]" value="Studio">Studio
+<input type="checkbox" name="attivita[]" value="Lavoro">Lavoro
+<input type="checkbox" name="attivita[]" value="Svago">Svago
+<input type="checkbox" name="attivita[]" value="Comunicazione">Comunicazione
+<input type="checkbox" name="attivita[]" value="Altro">Altro
+</fieldset>
+<p>Se hai scelto "altro" specifica: <input type="text" name="altroattivita"></input></p>
+
+<hr>
+
+<p>Hai mai sostituito un componente di un computer (esempio: hard disk interno, scheda grafica, memoria, ...)?</p>
+<select name="sostituzionehardware">
+<option value="S">Sì</option>
+<option value="N">No</option>
+</select>
+
+<hr>
+
+<p>Hai mai completato un corso di informatica all'università?</p>
+<select name="corsoit">
+<option value="S">Sì</option>
+<option value="N">No</option>
+</select>
+
+<hr>
+
+<p>Hai una certificazione ECDL?</p>
+<select name="ecdl">
+<option value="S">Sì</option>
+<option value="N">No</option>
+</select>
+
+<hr>
+
+<p>Ritenevi di essere più esperto col computer dei tuoi insegnanti delle superiori?</p>
+<select name="espertoliceo">
+<option value="S">Sì</option>
+<option value="N">No</option>
+</select>
+
+<hr>
+
+<p>Ritieni di essere più esperto col computer dei tuoi docenti universitari?</p>
+<select name="espertouniversita">
+<option value="S">Sì</option>
+<option value="N">No</option>
+</select>
+
+<hr>
+
+<p>Aiuti parenti e amici a risolvere problemi con i loro computer?</p>
+<select name="problemi">
+<option value="S">Sì</option>
+<option value="N">No</option>
+</select>
+
+<hr>
+
+<p>Come ritieni la tua competenza con i computer?</p>
+<select name="competenza">
+<option value="insufficiente">Insufficiente</option>
+<option value="sufficiente">Sufficiente</option>
+<option value="scarsa">Scarsa</option>
+<option value="buona">Buona</option>
+<option value="ottima">Ottima</option>
+</select>
+
+<hr>
+
+<p>Invia e passa alla prossima sezione</p>
+<input type="submit"/>
+</form>
+</body>
+</html>
