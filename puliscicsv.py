@@ -87,14 +87,14 @@ for fileName in ListaCSV:
                 text_file = open(fileName, "w", encoding='utf-8')
                 text_file.write("")
                 text_file.close()
-                fileName = fileName + "anziano.csv"
+                fileName = "anziani/" + fileName + "anziano.csv"
             elif int(listacolonne[1]) <1993: 
                 #newCSV = ""
                 #break
                 text_file = open(fileName, "w", encoding='utf-8')
                 text_file.write("")
                 text_file.close()
-                fileName = fileName + "anziano.csv"
+                fileName = "anziani/" + fileName + "anziano.csv"
         newCSV = newCSV + line + "\n"
         
     text_file = open(fileName, "w", encoding='utf-8')
