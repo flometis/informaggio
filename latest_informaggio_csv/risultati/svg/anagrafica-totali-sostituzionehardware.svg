@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504px" height="504px" viewBox="0 0 504 504" version="1.1">
+  <metadata xmlns:gridsvg="http://www.stat.auckland.ac.nz/~paul/R/gridSVG/">
+    <gridsvg:generator name="gridSVG" version="1.6-0" time="2019-01-07 19:39:28"/>
+    <gridsvg:argument name="name" value="./latest_informaggio_csv/risultati/svg/anagrafica-totali-sostituzionehardware.svg"/>
+    <gridsvg:argument name="exportCoords" value="none"/>
+    <gridsvg:argument name="exportMappings" value="none"/>
+    <gridsvg:argument name="exportJS" value="none"/>
+    <gridsvg:argument name="res" value="72"/>
+    <gridsvg:argument name="prefix" value=""/>
+    <gridsvg:argument name="addClasses" value="TRUE"/>
+    <gridsvg:argument name="indent" value="TRUE"/>
+    <gridsvg:argument name="htmlWrapper" value="FALSE"/>
+    <gridsvg:argument name="usePaths" value="vpPaths"/>
+    <gridsvg:argument name="uniqueNames" value="TRUE"/>
+    <gridsvg:separator name="id.sep" value="."/>
+    <gridsvg:separator name="gPath.sep" value="::"/>
+    <gridsvg:separator name="vpPath.sep" value="::"/>
+  </metadata>
+  <g transform="translate(0, 504) scale(1, -1)">
+    <g id="gridSVG" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="none" stroke-width="0.75" font-size="12" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" opacity="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0" font-weight="normal" font-style="normal">
+      <g id="layout.1" class="viewport">
+        <g id="layout.2" class="forcedgrob gtable gTree grob gDesc">
+          <defs>
+            <clipPath id="layout::background.1-11-12-1.1.clipPath">
+              <rect x="0" y="16.86" width="504" height="470.28" fill="none" stroke="none"/>
+            </clipPath>
+          </defs>
+          <g id="layout::background.1-11-12-1.1" clip-path="url(#layout::background.1-11-12-1.1.clipPath)" class="viewport">
+            <g id="background.1-11-12-1.1" class="forcedgrob gTableChild rect grob gDesc">
+              <rect id="background.1-11-12-1.1.1" x="0" y="16.86" width="504" height="470.28" transform="" stroke-width="1.07" stroke="rgb(255,255,255)" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill-opacity="1"/>
+            </g>
+          </g>
+          <defs>
+            <clipPath id="layout::panel.7-5-7-5.1.clipPath">
+              <rect x="8.22" y="25.08" width="439.13" height="439.13" fill="none" stroke="none"/>
+            </clipPath>
+          </defs>
+          <g id="layout::panel.7-5-7-5.1" clip-path="url(#layout::panel.7-5-7-5.1.clipPath)" class="viewport">
+            <g id="panel.7-5-7-5.1" class="forcedgrob gTableChild gTree grob gDesc">
+              <g id="grill.gTree.3543.1" class="gTree grob gDesc">
+                <g id="panel.background..rect.3539.1" class="rect grob gDesc">
+                  <rect id="panel.background..rect.3539.1.1" x="8.22" y="25.08" width="439.13" height="439.13" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1"/>
+                </g>
+              </g>
+              <g id="bar.gTree.3532.1" class="gTree grob gDesc">
+                <g id="geom_polygon.polygon.3528.1" class="polygon grob gDesc">
+                  <polygon id="geom_polygon.polygon.3528.1.1" points="227.78,244.64 221.82,245.73 215.86,246.81 209.9,247.89 203.95,248.98 197.99,250.06 192.03,251.14 186.07,252.23 180.11,253.31 174.15,254.4 168.19,255.48 162.23,256.56 156.27,257.65 150.31,258.73 144.35,259.81 138.39,260.9 132.43,261.98 126.48,263.06 120.52,264.15 114.56,265.23 108.6,266.31 102.64,267.4 96.68,268.48 90.72,269.56 84.76,270.65 78.8,271.73 72.84,272.82 66.88,273.9 60.92,274.98 54.97,276.07 54,270.18 53.23,264.26 52.67,258.32 52.3,252.36 52.14,246.4 52.18,240.43 52.43,234.47 52.87,228.52 53.52,222.59 54.37,216.68 55.42,210.81 56.67,204.97 58.12,199.18 59.76,193.44 61.6,187.77 63.62,182.15 65.84,176.61 68.24,171.15 70.83,165.78 73.6,160.49 76.55,155.3 79.67,150.22 82.96,145.24 86.42,140.38 90.05,135.64 93.83,131.02 97.77,126.54 101.85,122.19 106.09,117.98 110.46,113.92 114.97,110.01 119.6,106.26 124.37,102.66 129.25,99.23 134.25,95.97 139.35,92.88 144.56,89.96 149.86,87.22 155.25,84.67 160.73,82.3 166.28,80.11 171.9,78.12 177.59,76.32 183.34,74.71 189.14,73.3 194.98,72.08 200.86,71.07 206.77,70.25 212.71,69.64 218.66,69.23 224.62,69.02 230.59,69.02 236.55,69.21 242.51,69.61 248.45,70.21 254.36,71.01 260.24,72.02 266.09,73.22 271.89,74.62 277.64,76.22 283.33,78.01 288.96,79.99 294.51,82.16 299.99,84.52 305.39,87.07 310.7,89.8 315.91,92.7 321.02,95.78 326.02,99.04 330.91,102.46 335.68,106.04 340.33,109.79 344.84,113.69 349.23,117.74 353.47,121.94 357.56,126.28 361.51,130.75 365.3,135.36 368.93,140.1 372.4,144.95 375.7,149.92 378.84,155 381.79,160.18 384.57,165.46 387.17,170.83 389.59,176.29 391.82,181.83 393.86,187.43 395.7,193.11 397.36,198.84 398.81,204.63 400.07,210.46 401.14,216.33 402,222.24 402.66,228.17 403.12,234.12 403.37,240.08 403.43,246.05 403.28,252.01 402.93,257.97 402.37,263.91 401.62,269.83 400.66,275.72 399.51,281.57 398.15,287.39 396.6,293.15 394.86,298.86 392.92,304.5 390.79,310.07 388.47,315.57 385.97,320.99 383.29,326.32 380.42,331.55 377.38,336.69 374.17,341.72 370.79,346.63 367.24,351.43 363.53,356.11 359.67,360.66 355.65,365.07 351.49,369.34 347.18,373.47 342.74,377.45 338.16,381.28 333.45,384.95 328.63,388.46 323.68,391.8 318.63,394.98 313.47,397.97 308.21,400.8 302.86,403.44 297.43,405.9 291.91,408.17 286.32,410.25 280.66,412.15 274.94,413.85 269.16,415.35 263.34,416.66 257.48,417.77 251.58,418.67 245.65,419.38 239.71,419.89 233.75,420.19 227.78,420.29 227.78,414.24 227.78,408.18 227.78,402.12 227.78,396.07 227.78,390.01 227.78,383.95 227.78,377.9 227.78,371.84 227.78,365.78 227.78,359.72 227.78,353.67 227.78,347.61 227.78,341.55 227.78,335.5 227.78,329.44 227.78,323.38 227.78,317.33 227.78,311.27 227.78,305.21 227.78,299.16 227.78,293.1 227.78,287.04 227.78,280.98 227.78,274.93 227.78,268.87 227.78,262.81 227.78,256.76 227.78,250.7 227.78,244.64 227.78,244.64" stroke="none" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1"/>
+                </g>
+                <g id="geom_polygon.polygon.3530.1" class="polygon grob gDesc">
+                  <polygon id="geom_polygon.polygon.3530.1.1" points="227.78,244.64 227.78,250.7 227.78,256.76 227.78,262.81 227.78,268.87 227.78,274.93 227.78,280.98 227.78,287.04 227.78,293.1 227.78,299.16 227.78,305.21 227.78,311.27 227.78,317.33 227.78,323.38 227.78,329.44 227.78,335.5 227.78,341.55 227.78,347.61 227.78,353.67 227.78,359.72 227.78,365.78 227.78,371.84 227.78,377.9 227.78,383.95 227.78,390.01 227.78,396.07 227.78,402.12 227.78,408.18 227.78,414.24 227.78,420.29 221.82,420.19 215.87,419.89 209.94,419.38 204.02,418.68 198.13,417.77 192.27,416.67 186.46,415.36 180.69,413.86 174.98,412.17 169.33,410.28 163.74,408.2 158.23,405.94 152.8,403.49 147.46,400.85 142.21,398.04 137.05,395.05 132,391.88 127.06,388.55 122.24,385.05 117.54,381.39 112.96,377.57 108.52,373.6 104.22,369.48 100.05,365.22 96.04,360.82 92.17,356.28 88.46,351.62 84.92,346.83 81.53,341.92 78.32,336.91 75.27,331.79 72.4,326.56 69.71,321.24 67.21,315.84 64.89,310.35 62.75,304.79 60.81,299.16 59.05,293.46 57.49,287.71 56.13,281.91 54.97,276.07 60.92,274.98 66.88,273.9 72.84,272.82 78.8,271.73 84.76,270.65 90.72,269.56 96.68,268.48 102.64,267.4 108.6,266.31 114.56,265.23 120.52,264.15 126.48,263.06 132.43,261.98 138.39,260.9 144.35,259.81 150.31,258.73 156.27,257.65 162.23,256.56 168.19,255.48 174.15,254.4 180.11,253.31 186.07,252.23 192.03,251.14 197.99,250.06 203.95,248.98 209.9,247.89 215.86,246.81 221.82,245.73 227.78,244.64 227.78,244.64" stroke="none" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1"/>
+                </g>
+              </g>
+              <g id="GRID.text.3533.1" class="text grob gDesc">
+                <g id="GRID.text.3533.1.1" transform="translate(284.06, 177.21)" stroke-width="0.1">
+                  <g id="GRID.text.3533.1.1.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.3533.1.1.text" text-anchor="middle" stroke="rgb(0,0,0)" font-size="11.04" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.3533.1.1.tspan.1" dy="3.95" x="0">204</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="GRID.text.3533.1.2" transform="translate(171.51, 312.07)" stroke-width="0.1">
+                  <g id="GRID.text.3533.1.2.scale" transform="scale(1, -1)">
+                    <text x="0" y="0" id="GRID.text.3533.1.2.text" text-anchor="middle" stroke="rgb(0,0,0)" font-size="11.04" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                      <tspan id="GRID.text.3533.1.2.tspan.1" dy="3.95" x="0">58</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g id="GRID.gTree.3534.1" class="gTree grob gDesc"/>
+            </g>
+          </g>
+          <g id="layout::spacer.8-6-8-6.1" class="viewport"/>
+          <g id="layout::spacer.8-4-8-4.1" class="viewport"/>
+          <g id="layout::spacer.6-6-6-6.1" class="viewport"/>
+          <g id="layout::spacer.6-4-6-4.1" class="viewport"/>
+          <g id="layout::axis-t.6-5-6-5.1" class="viewport"/>
+          <g id="layout::axis-l.7-4-7-4.1" class="viewport">
+            <g id="layout::axis-l.7-4-7-4::GRID.VP.845.1" class="viewport">
+              <g id="axis-l.7-4-7-4.1" class="forcedgrob gTableChild absoluteGrob gTree grob gDesc">
+                <g id="layout::axis-l.7-4-7-4::GRID.VP.845::axis.1" class="viewport">
+                  <g id="axis.1" class="forcedgrob gtable gTree grob gDesc">
+                    <g id="layout::axis-l.7-4-7-4::GRID.VP.845::axis::axis.1-1-1-1.1" class="viewport"/>
+                    <g id="layout::axis-l.7-4-7-4::GRID.VP.845::axis::axis.1-2-1-2.1" class="viewport"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::axis-r.7-6-7-6.1" class="viewport"/>
+          <g id="layout::axis-b.8-5-8-5.1" class="viewport">
+            <g id="layout::axis-b.8-5-8-5::GRID.VP.844.1" class="viewport">
+              <g id="axis-b.8-5-8-5.1" class="forcedgrob gTableChild absoluteGrob gTree grob gDesc">
+                <g id="layout::axis-b.8-5-8-5::GRID.VP.844::axis.1" class="viewport">
+                  <g id="axis.2" class="forcedgrob gtable gTree grob gDesc">
+                    <g id="layout::axis-b.8-5-8-5::GRID.VP.844::axis::axis.1-1-1-1.1" class="viewport"/>
+                    <g id="layout::axis-b.8-5-8-5::GRID.VP.844::axis::axis.2-1-2-1.1" class="viewport"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::xlab-t.5-5-5-5.1" class="viewport"/>
+          <g id="layout::xlab-b.9-5-9-5.1" class="viewport"/>
+          <g id="layout::ylab-l.7-3-7-3.1" class="viewport"/>
+          <g id="layout::ylab-r.7-7-7-7.1" class="viewport"/>
+          <g id="layout::guide-box.7-9-7-9.1" class="viewport">
+            <g id="layout::guide-box.7-9-7-9::GRID.VP.853.1" class="viewport">
+              <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9.1" class="viewport">
+                <g id="guide-box.7-9-7-9.1" class="forcedgrob gTableChild gtable gTree grob gDesc">
+                  <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::legend.box.background.2-4-4-2.1" class="viewport"/>
+                  <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3.1" class="viewport">
+                    <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852.1" class="viewport">
+                      <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3.1" class="viewport">
+                        <g id="guides.3-3-3-3.1" class="forcedgrob gTableChild gtable gTree grob gDesc">
+                          <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::background.1-6-6-1.1" class="viewport">
+                            <g id="background.1-6-6-1.1" class="forcedgrob gTableChild rect grob gDesc">
+                              <rect id="background.1-6-6-1.1.1" x="458.3" y="219.14" width="40.22" height="51" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1"/>
+                            </g>
+                          </g>
+                          <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::title.2-5-2-2.1" class="viewport"/>
+                          <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::key-3-1-bg.4-2-4-2.1" class="viewport"/>
+                          <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::key-3-1-1.4-2-4-2.1" class="viewport">
+                            <g id="key-3-1-1.4-2-4-2.1" class="forcedgrob gTableChild rect grob gDesc">
+                              <rect id="key-3-1-1.4-2-4-2.1.1" x="464.49" y="242.61" width="15.86" height="15.86" transform="" stroke="none" fill="rgb(248,118,109)" stroke-dasharray="none" stroke-width="1.07" stroke-linejoin="miter" stroke-opacity="0" fill-opacity="1"/>
+                            </g>
+                          </g>
+                          <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::key-4-1-bg.5-2-5-2.1" class="viewport"/>
+                          <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::key-4-1-1.5-2-5-2.1" class="viewport">
+                            <g id="key-4-1-1.5-2-5-2.1" class="forcedgrob gTableChild rect grob gDesc">
+                              <rect id="key-4-1-1.5-2-5-2.1.1" x="464.49" y="225.33" width="15.86" height="15.86" transform="" stroke="none" fill="rgb(0,191,196)" stroke-dasharray="none" stroke-width="1.07" stroke-linejoin="miter" stroke-opacity="0" fill-opacity="1"/>
+                            </g>
+                          </g>
+                          <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::label-3-3.4-4-4-4.1" class="viewport">
+                            <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::label-3-3.4-4-4-4::GRID.VP.850.1" class="viewport">
+                              <g id="label-3-3.4-4-4-4.1" class="forcedgrob gTableChild gTree grob gDesc">
+                                <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::label-3-3.4-4-4-4::GRID.VP.850::GRID.VP.846.1" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" font-weight="normal" font-style="normal" class="viewport">
+                                  <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::label-3-3.4-4-4-4::GRID.VP.850::GRID.VP.846::GRID.VP.847.1" class="viewport">
+                                    <g id="guide.label.titleGrob.3557.1" class="titleGrob gTree grob gDesc">
+                                      <g id="GRID.text.3555.1" class="text grob gDesc">
+                                        <g id="GRID.text.3555.1.1" transform="translate(486.54, 250.54)" stroke-width="0.1">
+                                          <g id="GRID.text.3555.1.1.scale" transform="scale(1, -1)">
+                                            <text x="0" y="0" id="GRID.text.3555.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                              <tspan id="GRID.text.3555.1.1.tspan.1" dy="3.23" x="0">S</tspan>
+                                            </text>
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                          <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::label-4-3.5-4-5-4.1" class="viewport">
+                            <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::label-4-3.5-4-5-4::GRID.VP.851.1" class="viewport">
+                              <g id="label-4-3.5-4-5-4.1" class="forcedgrob gTableChild gTree grob gDesc">
+                                <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::label-4-3.5-4-5-4::GRID.VP.851::GRID.VP.848.1" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" font-weight="normal" font-style="normal" class="viewport">
+                                  <g id="layout::guide-box.7-9-7-9::GRID.VP.853::guide-box.7-9-7-9::guides.3-3-3-3::GRID.VP.852::guides.3-3-3-3::label-4-3.5-4-5-4::GRID.VP.851::GRID.VP.848::GRID.VP.849.1" class="viewport">
+                                    <g id="guide.label.titleGrob.3560.1" class="titleGrob gTree grob gDesc">
+                                      <g id="GRID.text.3558.1" class="text grob gDesc">
+                                        <g id="GRID.text.3558.1.1" transform="translate(486.54, 233.26)" stroke-width="0.1">
+                                          <g id="GRID.text.3558.1.1.scale" transform="scale(1, -1)">
+                                            <text x="0" y="0" id="GRID.text.3558.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                              <tspan id="GRID.text.3558.1.1.tspan.1" dy="3.23" x="0">N</tspan>
+                                            </text>
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::subtitle.4-5-4-5.1" class="viewport"/>
+          <g id="layout::title.3-5-3-5.1" class="viewport">
+            <g id="layout::title.3-5-3-5::GRID.VP.854.1" font-size="13.2" stroke="rgb(102,102,102)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" font-weight="normal" font-style="normal" class="viewport">
+              <g id="layout::title.3-5-3-5::GRID.VP.854::GRID.VP.855.1" class="viewport">
+                <g id="title.3-5-3-5.1" class="forcedgrob gTableChild titleGrob gTree grob gDesc">
+                  <g id="GRID.text.3569.1" class="text grob gDesc">
+                    <g id="GRID.text.3569.1.1" transform="translate(227.78, 481.66)" stroke-width="0.1">
+                      <g id="GRID.text.3569.1.1.scale" transform="scale(1, -1)">
+                        <text x="0" y="0" id="GRID.text.3569.1.1.text" text-anchor="middle" font-size="13.2" stroke="rgb(102,102,102)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(102,102,102)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                          <tspan id="GRID.text.3569.1.1.tspan.1" dy="9.33" x="0">anagrafica totali-sostituzionehardware</tspan>
+                        </text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::caption.10-5-10-5.1" class="viewport"/>
+          <g id="layout::tag.2-2-2-2.1" class="viewport"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
