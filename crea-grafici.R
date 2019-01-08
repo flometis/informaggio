@@ -13,7 +13,10 @@ library(ggplot2);
 require(gridSVG);
 
 
-path = "./latest_informaggio_csv/risultati/";
+path <- "./latest_informaggio_csv/risultati/";
+args <- commandArgs(trailingOnly=TRUE);
+if (length(args)>0) path <- args[1];
+
 filenames <- dir(path, pattern =".csv");
 for(i in 1:length(filenames)){
     if (grepl("anagrafica-", filenames[i]) || grepl("risposta-", filenames[i])) {
