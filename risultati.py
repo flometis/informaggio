@@ -163,3 +163,46 @@ for fileName in ListaCSV:
         print("|"+ str(ListaAtenei[0][riga]) + " | " + str(ListaAtenei[1][riga]) + "|")
         with open(fname, "a", encoding='utf-8') as myfile:
             myfile.write(str(ListaAtenei[0][riga]) + ", " + str(ListaAtenei[1][riga]) +"\n")
+
+#risposte Non so
+fileTot = 0
+fileNonso = 0
+nonsototali = 0
+rispostetotali = 0
+for fileName in ListaCSV:
+    text_file = open(fileName, "r", encoding='utf-8')
+    lines = text_file.read()
+    text_file.close()
+    
+    listarighe = lines.split("\n")
+    if len(listarighe)>31:
+        fileTot = fileTot +1
+        dothisfile = True
+        if not filtro == "totali":
+            dothisfile = False
+            for line in listarighe:
+                listacolonne = line.split(",")
+                if listacolonne[0] == filtro.split("=")[0]:
+                    valorifiltro = filtro.split("=")[1].split("|")
+                    for vf in valorifiltro:
+                        if listacolonne[1] == vf:
+                            dothisfile = True
+        if dothisfile:
+            for line in listarighe:
+                listacolonne = line.split(",")
+                domanda = listacolonne[0]
+                if domanda in rispostemultiple:
+                    if "Non so" in listacolonne:
+                        fileNonso = fileNonso + 1
+                        break
+            for line in listarighe:
+                listacolonne = line.split(",")
+                domanda = listacolonne[0]
+                if domanda in rispostemultiple:
+                    rispostetotali = rispostetotali + len(listacolonne) -1
+                    if "Non so" in listacolonne:
+                        nonsototali = nonsototali + 1
+fname = cartella + "/risultati/nonso-"+filtro+".csv"
+text_file = open(fname, "w", encoding='utf-8')
+text_file.write("File totali: " + str(fileTot) +"\nFile con almeno un Non so: "+str(fileNonso)+"\nRisposte totali: "+str(rispostetotali)+"\nNon so totali: "+str(nonsototali))
+text_file.close()

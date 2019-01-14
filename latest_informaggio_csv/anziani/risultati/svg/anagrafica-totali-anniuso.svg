@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504px" height="504px" viewBox="0 0 504 504" version="1.1">
   <metadata xmlns:gridsvg="http://www.stat.auckland.ac.nz/~paul/R/gridSVG/">
-    <gridsvg:generator name="gridSVG" version="1.6-0" time="2019-01-08 22:40:12"/>
+    <gridsvg:generator name="gridSVG" version="1.6-0" time="2019-01-14 15:47:59"/>
     <gridsvg:argument name="name" value="./latest_informaggio_csv/anziani/risultati/svg/anagrafica-totali-anniuso.svg"/>
     <gridsvg:argument name="exportCoords" value="none"/>
     <gridsvg:argument name="exportMappings" value="none"/>
@@ -381,7 +381,7 @@
                                         <g id="GRID.text.460.1.1" transform="translate(483.03, 380.14)" stroke-width="0.1">
                                           <g id="GRID.text.460.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.460.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.460.1.1.tspan.1" dy="3.23" x="0">24</tspan>
+                                              <tspan id="GRID.text.460.1.1.tspan.1" dy="3.23" x="0">27</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -402,7 +402,7 @@
                                         <g id="GRID.text.463.1.1" transform="translate(483.03, 362.86)" stroke-width="0.1">
                                           <g id="GRID.text.463.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.463.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.463.1.1.tspan.1" dy="3.23" x="0">21</tspan>
+                                              <tspan id="GRID.text.463.1.1.tspan.1" dy="3.23" x="0">14</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -423,7 +423,7 @@
                                         <g id="GRID.text.466.1.1" transform="translate(483.03, 345.58)" stroke-width="0.1">
                                           <g id="GRID.text.466.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.466.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.466.1.1.tspan.1" dy="3.23" x="0">35</tspan>
+                                              <tspan id="GRID.text.466.1.1.tspan.1" dy="3.23" x="0">8</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -444,7 +444,7 @@
                                         <g id="GRID.text.469.1.1" transform="translate(483.03, 328.3)" stroke-width="0.1">
                                           <g id="GRID.text.469.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.469.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.469.1.1.tspan.1" dy="3.23" x="0">11</tspan>
+                                              <tspan id="GRID.text.469.1.1.tspan.1" dy="3.23" x="0">24</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -465,7 +465,7 @@
                                         <g id="GRID.text.472.1.1" transform="translate(483.03, 311.02)" stroke-width="0.1">
                                           <g id="GRID.text.472.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.472.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.472.1.1.tspan.1" dy="3.23" x="0">27</tspan>
+                                              <tspan id="GRID.text.472.1.1.tspan.1" dy="3.23" x="0">21</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -486,7 +486,7 @@
                                         <g id="GRID.text.475.1.1" transform="translate(483.03, 293.74)" stroke-width="0.1">
                                           <g id="GRID.text.475.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.475.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.475.1.1.tspan.1" dy="3.23" x="0">8</tspan>
+                                              <tspan id="GRID.text.475.1.1.tspan.1" dy="3.23" x="0">35</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -507,7 +507,7 @@
                                         <g id="GRID.text.478.1.1" transform="translate(483.03, 276.46)" stroke-width="0.1">
                                           <g id="GRID.text.478.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.478.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.478.1.1.tspan.1" dy="3.23" x="0">14</tspan>
+                                              <tspan id="GRID.text.478.1.1.tspan.1" dy="3.23" x="0">11</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -528,7 +528,7 @@
                                         <g id="GRID.text.481.1.1" transform="translate(483.03, 259.18)" stroke-width="0.1">
                                           <g id="GRID.text.481.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.481.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.481.1.1.tspan.1" dy="3.23" x="0">22</tspan>
+                                              <tspan id="GRID.text.481.1.1.tspan.1" dy="3.23" x="0">17</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -549,7 +549,7 @@
                                         <g id="GRID.text.484.1.1" transform="translate(483.03, 241.9)" stroke-width="0.1">
                                           <g id="GRID.text.484.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.484.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.484.1.1.tspan.1" dy="3.23" x="0">17</tspan>
+                                              <tspan id="GRID.text.484.1.1.tspan.1" dy="3.23" x="0">22</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -612,7 +612,7 @@
                                         <g id="GRID.text.493.1.1" transform="translate(483.03, 190.06)" stroke-width="0.1">
                                           <g id="GRID.text.493.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.493.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.493.1.1.tspan.1" dy="3.23" x="0">13</tspan>
+                                              <tspan id="GRID.text.493.1.1.tspan.1" dy="3.23" x="0">18</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -633,7 +633,7 @@
                                         <g id="GRID.text.496.1.1" transform="translate(483.03, 172.78)" stroke-width="0.1">
                                           <g id="GRID.text.496.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.496.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.496.1.1.tspan.1" dy="3.23" x="0">18</tspan>
+                                              <tspan id="GRID.text.496.1.1.tspan.1" dy="3.23" x="0">13</tspan>
                                             </text>
                                           </g>
                                         </g>

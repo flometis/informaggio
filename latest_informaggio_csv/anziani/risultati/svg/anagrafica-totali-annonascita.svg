@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504px" height="504px" viewBox="0 0 504 504" version="1.1">
   <metadata xmlns:gridsvg="http://www.stat.auckland.ac.nz/~paul/R/gridSVG/">
-    <gridsvg:generator name="gridSVG" version="1.6-0" time="2019-01-08 22:40:17"/>
+    <gridsvg:generator name="gridSVG" version="1.6-0" time="2019-01-14 15:48:02"/>
     <gridsvg:argument name="name" value="./latest_informaggio_csv/anziani/risultati/svg/anagrafica-totali-annonascita.svg"/>
     <gridsvg:argument name="exportCoords" value="none"/>
     <gridsvg:argument name="exportMappings" value="none"/>
@@ -317,7 +317,7 @@
                                         <g id="GRID.text.757.1.1" transform="translate(473.03, 345.58)" stroke-width="0.1">
                                           <g id="GRID.text.757.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.757.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.757.1.1.tspan.1" dy="3.23" x="0">1979</tspan>
+                                              <tspan id="GRID.text.757.1.1.tspan.1" dy="3.23" x="0">1983</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -338,7 +338,7 @@
                                         <g id="GRID.text.760.1.1" transform="translate(473.03, 328.3)" stroke-width="0.1">
                                           <g id="GRID.text.760.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.760.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.760.1.1.tspan.1" dy="3.23" x="0">1983</tspan>
+                                              <tspan id="GRID.text.760.1.1.tspan.1" dy="3.23" x="0">1963</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -359,7 +359,7 @@
                                         <g id="GRID.text.763.1.1" transform="translate(473.03, 311.02)" stroke-width="0.1">
                                           <g id="GRID.text.763.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.763.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.763.1.1.tspan.1" dy="3.23" x="0">1963</tspan>
+                                              <tspan id="GRID.text.763.1.1.tspan.1" dy="3.23" x="0">1979</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -380,7 +380,7 @@
                                         <g id="GRID.text.766.1.1" transform="translate(473.03, 293.74)" stroke-width="0.1">
                                           <g id="GRID.text.766.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.766.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.766.1.1.tspan.1" dy="3.23" x="0">1982</tspan>
+                                              <tspan id="GRID.text.766.1.1.tspan.1" dy="3.23" x="0">NA</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -401,7 +401,7 @@
                                         <g id="GRID.text.769.1.1" transform="translate(473.03, 276.46)" stroke-width="0.1">
                                           <g id="GRID.text.769.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.769.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.769.1.1.tspan.1" dy="3.23" x="0">NA</tspan>
+                                              <tspan id="GRID.text.769.1.1.tspan.1" dy="3.23" x="0">1976</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -464,7 +464,7 @@
                                         <g id="GRID.text.778.1.1" transform="translate(473.03, 224.62)" stroke-width="0.1">
                                           <g id="GRID.text.778.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.778.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.778.1.1.tspan.1" dy="3.23" x="0">1976</tspan>
+                                              <tspan id="GRID.text.778.1.1.tspan.1" dy="3.23" x="0">1982</tspan>
                                             </text>
                                           </g>
                                         </g>

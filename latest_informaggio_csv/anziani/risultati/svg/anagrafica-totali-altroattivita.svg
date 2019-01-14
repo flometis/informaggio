@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504px" height="504px" viewBox="0 0 504 504" version="1.1">
   <metadata xmlns:gridsvg="http://www.stat.auckland.ac.nz/~paul/R/gridSVG/">
-    <gridsvg:generator name="gridSVG" version="1.6-0" time="2019-01-08 22:40:00"/>
+    <gridsvg:generator name="gridSVG" version="1.6-0" time="2019-01-14 15:47:53"/>
     <gridsvg:argument name="name" value="./latest_informaggio_csv/anziani/risultati/svg/anagrafica-totali-altroattivita.svg"/>
     <gridsvg:argument name="exportCoords" value="none"/>
     <gridsvg:argument name="exportMappings" value="none"/>
@@ -189,7 +189,7 @@
                                         <g id="GRID.text.35.1.1" transform="translate(298.08, 276.46)" stroke-width="0.1">
                                           <g id="GRID.text.35.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.35.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.35.1.1.tspan.1" dy="3.23" x="0">Leggere</tspan>
+                                              <tspan id="GRID.text.35.1.1.tspan.1" dy="3.23" x="0">social network</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -210,7 +210,7 @@
                                         <g id="GRID.text.38.1.1" transform="translate(298.08, 259.18)" stroke-width="0.1">
                                           <g id="GRID.text.38.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.38.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.38.1.1.tspan.1" dy="3.23" x="0">Shopping </tspan>
+                                              <tspan id="GRID.text.38.1.1.tspan.1" dy="3.23" x="0">Utilizzo principalmente i vari dispositivi per studio</tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -231,7 +231,7 @@
                                         <g id="GRID.text.41.1.1" transform="translate(298.08, 241.9)" stroke-width="0.1">
                                           <g id="GRID.text.41.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.41.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.41.1.1.tspan.1" dy="3.23" x="0">social network</tspan>
+                                              <tspan id="GRID.text.41.1.1.tspan.1" dy="3.23" x="0">Shopping </tspan>
                                             </text>
                                           </g>
                                         </g>
@@ -252,7 +252,7 @@
                                         <g id="GRID.text.44.1.1" transform="translate(298.08, 224.62)" stroke-width="0.1">
                                           <g id="GRID.text.44.1.1.scale" transform="scale(1, -1)">
                                             <text x="0" y="0" id="GRID.text.44.1.1.text" text-anchor="start" font-size="8.8" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                                              <tspan id="GRID.text.44.1.1.tspan.1" dy="3.23" x="0">Utilizzo principalmente i vari dispositivi per studio</tspan>
+                                              <tspan id="GRID.text.44.1.1.tspan.1" dy="3.23" x="0">Leggere</tspan>
                                             </text>
                                           </g>
                                         </g>
