@@ -69,7 +69,7 @@ for nomeriga in listarigheTotali:
 
 rispostemultiple = {
 "file_rar" : {"archivio compresso" : 1, "immagine" : -1, "installer": -1, "word": -1, "Non so": 0},
-"creazione_pdf" : {"salvo da word" : 1, "ocr" : -1, "stampo e scansiono": 0, "Adobe Reader" : 0, "Non so" : 0},
+"creazione_pdf" : {"salvo da word" : 1, "ocr" : -1, "stampo e scansiono": -1, "Adobe Reader" : -1, "Non so" : 0},
 "markup" : {"wordpress": -1, "javascript": -1, "html": 1, "xml":1, "latex": 1, "excel":-1, "jpeg":-1, "linux":-1,  "Non so":0},
 "hardware" : {"hard disk":1,"stampante":1,"cloud computing":-1, "sistema operativo":-1, "supporti SSD":1, "cavo hdmi":1, "browser":-1, "indirizzo IP":-1, "Non so": 0},
 "duckduckgo" : {"motorericerca":1, "ecommerce":-1, "p2p":-1, "virus":-1, "Non so":0},
