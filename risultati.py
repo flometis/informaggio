@@ -20,6 +20,19 @@ for ApriFile in folderlist:
 filtro = "totali"
 if len(sys.argv)>2:
     filtro = sys.argv[2]
+    
+def applicaFiltro(listarighe, miofiltro = filtro):
+    dothisfile = True
+    if not miofiltro == "totali":
+        dothisfile = False
+        for line in listarighe:
+            listacolonne = line.split(",")
+            if listacolonne[0] == miofiltro.split("=")[0]:
+                valorifiltro = miofiltro.split("=")[1].split("|")
+                for vf in valorifiltro:
+                    if listacolonne[1] == vf:
+                        dothisfile = True
+    return dothisfile
 
 listarigheTotali = ["disclaimer", "annonascita", "sesso", "regione", "cdl", "annocorso", "nomecorso", "ateneo", "anniuso", "anniinternet", "interesse", "computerpersonale", "os", "altroos", "dispositivo", "altrodispositivo", "attivita", "altroattivita", "sostituzionehardware", "corsoit", "ecdl", "espertoliceo", "espertouniversita", "problemi", "competenza", "elaborazioneinformazioni", "creazionecontenuti", "comunicazione", "risoluzioneproblemi", "sicurezza"]
 
@@ -33,16 +46,8 @@ for nomeriga in listarigheTotali:
         
         listarighe = lines.split("\n")
         if len(listarighe)>31:
+            #dothisfile = applicaFiltro(listarighe)
             dothisfile = True
-            if not filtro == "totali":
-                dothisfile = False
-                for line in listarighe:
-                    listacolonne = line.split(",")
-                    if listacolonne[0] == filtro.split("=")[0]:
-                        valorifiltro = filtro.split("=")[1].split("|")
-                        for vf in valorifiltro:
-                            if listacolonne[1] == vf:
-                                dothisfile = True
             for line in listarighe:
                 listacolonne = line.split(",")
                 if listacolonne[0] == nomeriga:
@@ -57,7 +62,8 @@ for nomeriga in listarigheTotali:
                             ListaAtenei[0].append(nomeateneo)
                             ListaAtenei[1].append(pasquale)
                     
-    fname = cartella + "/risultati/anagrafica-"+ filtro +"-"+nomeriga+".csv"
+    #fname = cartella + "/risultati/anagrafica-"+ filtro +"-"+nomeriga+".csv"
+    fname = cartella + "/risultati/anagrafica-"+nomeriga+".csv"
     text_file = open(fname, "w", encoding='utf-8')
     text_file.write("")
     text_file.close()
@@ -95,21 +101,23 @@ for domanda in rispostemultiple:
         
         listarighe = lines.split("\n")
         if len(listarighe)>31:
-            for line in listarighe:
-                listacolonne = line.split(",")
-                if listacolonne[0] == domanda:
-                    punteggio = 0
-                    for i in range(1,len(listacolonne)):
-                        punteggio = punteggio + rispostemultiple[domanda][listacolonne[i]]
-                    pasquale = 1
-                    if punteggio in ListaAtenei[0]:
-                        rigaateneo = ListaAtenei[0].index(punteggio)
-                        pasquale = pasquale + ListaAtenei[1][rigaateneo]
-                        ListaAtenei[1][rigaateneo] = pasquale
-                    else:
-                        ListaAtenei[0].append(punteggio)
-                        ListaAtenei[1].append(pasquale)
-    fname = cartella + "/risultati/quiz-"+domanda+".csv"
+            dothisfile = applicaFiltro(listarighe)
+            if dothisfile == True:
+                for line in listarighe:
+                    listacolonne = line.split(",")
+                    if listacolonne[0] == domanda:
+                        punteggio = 0
+                        for i in range(1,len(listacolonne)):
+                            punteggio = punteggio + rispostemultiple[domanda][listacolonne[i]]
+                        pasquale = 1
+                        if punteggio in ListaAtenei[0]:
+                            rigaateneo = ListaAtenei[0].index(punteggio)
+                            pasquale = pasquale + ListaAtenei[1][rigaateneo]
+                            ListaAtenei[1][rigaateneo] = pasquale
+                        else:
+                            ListaAtenei[0].append(punteggio)
+                            ListaAtenei[1].append(pasquale)
+    fname = cartella + "/risultati/quiz-" + filtro + "-" + domanda+".csv"
     text_file = open(fname, "w", encoding='utf-8')
     text_file.write("")
     text_file.close()
@@ -120,6 +128,53 @@ for domanda in rispostemultiple:
         with open(fname, "a", encoding='utf-8') as myfile:
             myfile.write(str(ListaAtenei[0][riga]) + ", " + str(ListaAtenei[1][riga]) +"\n")
             
+categorie = {
+"elaborazioneinformazioni" : ["file_rar", "duckduckgo", "siti_affidabili", "allinurl", "google"],
+"creazionecontenuti": ["creazione_pdf", "markup", "collaborazione"],
+"comunicazione": ["social_network", "inviocartella"],
+"risoluzioneproblemi": ["spyware"],
+"sicurezza": ["https", "password", "phishing"]
+}
+euroVal = ["base", "medio", "avanzato", "nessuno", "tutto"]
+#Punteggi totali nelle varie categorie
+for categoria in categorie:
+    for valutazione in euroVal:
+        miofiltro = categoria + "=" + valutazione
+        ListaAtenei = [[],[]]
+        for domanda in rispostemultiple:
+            for fileName in ListaCSV:
+                text_file = open(fileName, "r", encoding='utf-8')
+                lines = text_file.read()
+                text_file.close()
+                
+                listarighe = lines.split("\n")
+                if len(listarighe)>31:
+                    dothisfile = applicaFiltro(listarighe, miofiltro)
+                    if dothisfile == True:
+                        for line in listarighe:
+                            listacolonne = line.split(",")
+                            if listacolonne[0] == domanda and domanda in categorie[categoria]:
+                                punteggio = 0
+                                for i in range(1,len(listacolonne)):
+                                    punteggio = punteggio + rispostemultiple[domanda][listacolonne[i]]
+                                pasquale = 1
+                                if punteggio in ListaAtenei[0]:
+                                    rigaateneo = ListaAtenei[0].index(punteggio)
+                                    pasquale = pasquale + ListaAtenei[1][rigaateneo]
+                                    ListaAtenei[1][rigaateneo] = pasquale
+                                else:
+                                    ListaAtenei[0].append(punteggio)
+                                    ListaAtenei[1].append(pasquale)
+        fname = cartella + "/risultati/quiz-" + miofiltro + "-" + categoria+".csv"
+        text_file = open(fname, "w", encoding='utf-8')
+        text_file.write("")
+        text_file.close()
+    
+        print(categoria)
+        for riga in range(len(ListaAtenei[0])):
+            print("|"+ str(ListaAtenei[0][riga]) + " | " + str(ListaAtenei[1][riga]) + "|")
+            with open(fname, "a", encoding='utf-8') as myfile:
+                myfile.write(str(ListaAtenei[0][riga]) + ", " + str(ListaAtenei[1][riga]) +"\n")
             
 #punteggi dei vari utenti
 ListaAtenei = [[],[]]
@@ -130,16 +185,7 @@ for fileName in ListaCSV:
     punteggio = 0
     listarighe = lines.split("\n")
     if len(listarighe)>31:
-        dothisfile = True
-        if not filtro == "totali":
-            dothisfile = False
-            for line in listarighe:
-                listacolonne = line.split(",")
-                if listacolonne[0] == filtro.split("=")[0]:
-                    valorifiltro = filtro.split("=")[1].split("|")
-                    for vf in valorifiltro:
-                        if listacolonne[1] == vf:
-                            dothisfile = True
+        dothisfile = applicaFiltro(listarighe)
         for line in listarighe:
             listacolonne = line.split(",")
             domanda = listacolonne[0]
@@ -177,16 +223,7 @@ for fileName in ListaCSV:
     listarighe = lines.split("\n")
     if len(listarighe)>31:
         fileTot = fileTot +1
-        dothisfile = True
-        if not filtro == "totali":
-            dothisfile = False
-            for line in listarighe:
-                listacolonne = line.split(",")
-                if listacolonne[0] == filtro.split("=")[0]:
-                    valorifiltro = filtro.split("=")[1].split("|")
-                    for vf in valorifiltro:
-                        if listacolonne[1] == vf:
-                            dothisfile = True
+        dothisfile = applicaFiltro(listarighe)
         if dothisfile:
             for line in listarighe:
                 listacolonne = line.split(",")

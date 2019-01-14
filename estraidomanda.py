@@ -23,6 +23,19 @@ if len(sys.argv)>2:
 filtro = "totali"
 if len(sys.argv)>3:
     filtro = sys.argv[3]
+    
+def applicaFiltro(listarighe, miofiltro = filtro):
+    dothisfile = True
+    if not miofiltro == "totali":
+        dothisfile = False
+        for line in listarighe:
+            listacolonne = line.split(",")
+            if listacolonne[0] == miofiltro.split("=")[0]:
+                valorifiltro = miofiltro.split("=")[1].split("|")
+                for vf in valorifiltro:
+                    if listacolonne[1] == vf:
+                        dothisfile = True
+    return dothisfile
 
 ListaAtenei = [[],[]]
 for fileName in ListaCSV:
@@ -32,16 +45,7 @@ for fileName in ListaCSV:
 
     listarighe = lines.split("\n")
     if len(listarighe)>31:
-        dothisfile = True
-        if not filtro == "totali":
-            dothisfile = False
-            for line in listarighe:
-                listacolonne = line.split(",")
-                if listacolonne[0] == filtro.split("=")[0]:
-                    valorifiltro = filtro.split("=")[1].split("|")
-                    for vf in valorifiltro:
-                        if listacolonne[1] == vf:
-                            dothisfile = True
+        dothisfile = applicaFiltro(listarighe)
         for line in listarighe:
             listacolonne = line.split(",")
             if listacolonne[0] == nomeriga:
