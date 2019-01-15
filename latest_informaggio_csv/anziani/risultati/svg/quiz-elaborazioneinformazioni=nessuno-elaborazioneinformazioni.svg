@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504px" height="504px" viewBox="0 0 504 504" version="1.1">
   <metadata xmlns:gridsvg="http://www.stat.auckland.ac.nz/~paul/R/gridSVG/">
-    <gridsvg:generator name="gridSVG" version="1.6-0" time="2019-01-14 19:41:32"/>
+    <gridsvg:generator name="gridSVG" version="1.6-0" time="2019-01-15 00:33:36"/>
     <gridsvg:argument name="name" value="./latest_informaggio_csv/anziani/risultati/svg/quiz-elaborazioneinformazioni=nessuno-elaborazioneinformazioni.svg"/>
     <gridsvg:argument name="exportCoords" value="none"/>
     <gridsvg:argument name="exportMappings" value="none"/>
@@ -38,9 +38,9 @@
           </defs>
           <g id="layout::panel.7-5-7-5.1" clip-path="url(#layout::panel.7-5-7-5.1.clipPath)" class="viewport">
             <g id="panel.7-5-7-5.1" class="forcedgrob gTableChild gTree grob gDesc">
-              <g id="grill.gTree.4266.1" class="gTree grob gDesc">
-                <g id="panel.background..rect.4265.1" class="rect grob gDesc">
-                  <rect id="panel.background..rect.4265.1.1" x="5.48" y="5.48" width="493.04" height="475.59" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1"/>
+              <g id="grill.gTree.4223.1" class="gTree grob gDesc">
+                <g id="panel.background..rect.4222.1" class="rect grob gDesc">
+                  <rect id="panel.background..rect.4222.1.1" x="5.48" y="5.48" width="493.04" height="475.59" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1"/>
                 </g>
               </g>
             </g>
@@ -59,14 +59,14 @@
           <g id="layout::ylab-r.7-7-7-7.1" class="viewport"/>
           <g id="layout::subtitle.4-5-4-5.1" class="viewport"/>
           <g id="layout::title.3-5-3-5.1" class="viewport">
-            <g id="layout::title.3-5-3-5::GRID.VP.1038.1" font-size="13.2" stroke="rgb(102,102,102)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" font-weight="normal" font-style="normal" class="viewport">
-              <g id="layout::title.3-5-3-5::GRID.VP.1038::GRID.VP.1039.1" class="viewport">
+            <g id="layout::title.3-5-3-5::GRID.VP.1027.1" font-size="13.2" stroke="rgb(102,102,102)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" font-weight="normal" font-style="normal" class="viewport">
+              <g id="layout::title.3-5-3-5::GRID.VP.1027::GRID.VP.1028.1" class="viewport">
                 <g id="title.3-5-3-5.1" class="forcedgrob gTableChild titleGrob gTree grob gDesc">
-                  <g id="GRID.text.4269.1" class="text grob gDesc">
-                    <g id="GRID.text.4269.1.1" transform="translate(252, 498.52)" stroke-width="0.1">
-                      <g id="GRID.text.4269.1.1.scale" transform="scale(1, -1)">
-                        <text x="0" y="0" id="GRID.text.4269.1.1.text" text-anchor="middle" font-size="13.2" stroke="rgb(102,102,102)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(102,102,102)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
-                          <tspan id="GRID.text.4269.1.1.tspan.1" dy="9.33" x="0">quiz elaborazioneinformazioni=nessuno-elaborazioneinformazioni</tspan>
+                  <g id="GRID.text.4226.1" class="text grob gDesc">
+                    <g id="GRID.text.4226.1.1" transform="translate(252, 498.52)" stroke-width="0.1">
+                      <g id="GRID.text.4226.1.1.scale" transform="scale(1, -1)">
+                        <text x="0" y="0" id="GRID.text.4226.1.1.text" text-anchor="middle" font-size="13.2" stroke="rgb(102,102,102)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(102,102,102)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                          <tspan id="GRID.text.4226.1.1.tspan.1" dy="9.33" x="0">quiz elaborazioneinformazioni=nessuno-elaborazioneinformazioni</tspan>
                         </text>
                       </g>
                     </g>

@@ -6,6 +6,7 @@ rm latest_informaggio_csv/risultati/*
 mkdir latest_informaggio_csv/risultati/svg
 rm latest_informaggio_csv/risultati/svg/*
 rm ./latest_informaggio_csv/anziani/*
+mkdir latest_informaggio_csv/anziani
 mkdir latest_informaggio_csv/anziani/risultati
 rm latest_informaggio_csv/anziani/risultati/*
 rm latest_informaggio_csv/anziani/risultati/svg/*

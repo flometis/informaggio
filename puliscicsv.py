@@ -43,6 +43,7 @@ for fileName in ListaCSV:
             listacolonne[1] = re.sub("vercelli vercelli", "vercelli", listacolonne[1], flags=re.DOTALL)
             listacolonne[1] = re.sub("piemonte orientale", "vercelli", listacolonne[1], flags=re.DOTALL)
             listacolonne[1] = re.sub("ca' foscari", "venezia", listacolonne[1], flags=re.DOTALL)
+            listacolonne[1] = re.sub("federico ii", "napoli", listacolonne[1], flags=re.DOTALL)
             listacolonne[1] = re.sub("venezia( )*venezia", "venezia", listacolonne[1], flags=re.DOTALL)
             listacolonne[1] = re.sub("festa del perdono", "", listacolonne[1], flags=re.DOTALL)
             listacolonne[1] = re.sub("unisalento", "salento", listacolonne[1], flags=re.DOTALL)
@@ -54,6 +55,7 @@ for fileName in ListaCSV:
             listacolonne[1] = re.sub("alma mater studiorum", "bologna", listacolonne[1], flags=re.DOTALL)
             listacolonne[1] = re.sub("unibo", "bologna", listacolonne[1], flags=re.DOTALL)
             listacolonne[1] = re.sub("^ ", "", listacolonne[1], flags=re.DOTALL)
+            listacolonne[1] = re.sub("baru", "bari", listacolonne[1], flags=re.DOTALL)
             listacolonne[1] = re.sub("roma tor vergata", "tor vergata", listacolonne[1], flags=re.DOTALL)
             line = listacolonne[0] + "," + listacolonne[1]
             if listacolonne[1] == "s.sofia" or listacolonne[1] == "mainz" or listacolonne[1] == "lettere": 
