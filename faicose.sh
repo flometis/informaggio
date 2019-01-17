@@ -49,3 +49,7 @@ done
 rm "./Rplots.pdf"
 ./crea-grafici.R "./latest_informaggio_csv/risultati/"
 ./crea-grafici.R "./latest_informaggio_csv/anziani/risultati/"
+
+#Per ottenere le immagini PNG:
+#cd "./latest_informaggio_csv/risultati/svg"
+#for i in *; do inkscape -z -e ${i%.*}.png -w 2048 -h 2048 $i; done
