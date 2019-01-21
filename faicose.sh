@@ -16,7 +16,7 @@ unzip latest_informaggio_csv.zip -d latest_informaggio_csv
 ./risultati.py "./latest_informaggio_csv"
 ./risultati.py "./latest_informaggio_csv/anziani"
 
-listafiltri=("interesse=S" "competenza=insufficiente" "competenza=sufficiente" "competenza=scarsa" "competenza=buona" "competenza=ottima")
+listafiltri=("interesse=S" "competenza=insufficiente" "competenza=sufficiente" "competenza=scarsa" "competenza=buona" "competenza=ottima" "cdl=LT" "cdl=LM")
 for i in ${listafiltri[@]}; do
     ./risultati.py "./latest_informaggio_csv" ${i}
 done

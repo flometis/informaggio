@@ -1,0 +1,15 @@
+base::::file:///home/flo/Progetti/informaggio/
+layout::::row-p-end,1067
+help::::rkward://page/rkward_welcome
+data::::my.csv.data
+data::::my.csv.melted
+pane_end::::
+workspace::sidebar,0::
+commandlog::sidebar,3::
+filebrowser::sidebar,0::
+pendingjobs::sidebar,4::
+console::sidebar,3::
+helpsearch::sidebar,3::
+debugframes::sidebar,1::
+debugconsole::sidebar,4::
+rkdebugmessages::sidebar,4::

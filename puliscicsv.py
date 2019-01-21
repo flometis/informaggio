@@ -56,7 +56,7 @@ for fileName in ListaCSV:
             listacolonne[1] = re.sub("alma mater studiorum", "bologna", listacolonne[1], flags=re.DOTALL)
             listacolonne[1] = re.sub("unibo", "bologna", listacolonne[1], flags=re.DOTALL)
             listacolonne[1] = re.sub("^ ", "", listacolonne[1], flags=re.DOTALL)
-            listacolonne[1] = re.sub("( )baru( )", "bari", listacolonne[1], flags=re.DOTALL)
+            listacolonne[1] = re.sub(".*baru.*", "bari", listacolonne[1], flags=re.DOTALL)
             listacolonne[1] = re.sub("roma tor vergata", "tor vergata", listacolonne[1], flags=re.DOTALL)
             line = listacolonne[0] + "," + listacolonne[1]
             if listacolonne[1] == "s.sofia" or listacolonne[1] == "mainz" or listacolonne[1] == "lettere": 
