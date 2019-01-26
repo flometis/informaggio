@@ -21,17 +21,21 @@ filtro = "totali"
 if len(sys.argv)>2:
     filtro = sys.argv[2]
     
-def applicaFiltro(listarighe, miofiltro = filtro):
+# ./risultati.py "./latest_informaggio_csv" "ateneo=trieste,cdl=LT,annocorso=2"
+def applicaFiltro(listarighe, mieifiltri = filtro):
     dothisfile = True
-    if not miofiltro == "totali":
+    if not mieifiltri == "totali":
         dothisfile = False
         for line in listarighe:
             listacolonne = line.split(",")
-            if listacolonne[0] == miofiltro.split("=")[0]:
-                valorifiltro = miofiltro.split("=")[1].split("|")
-                for vf in valorifiltro:
-                    if listacolonne[1] == vf:
+            for miofiltro in mieifiltri.split(","):
+                if listacolonne[0] == miofiltro.split("=")[0]:
+                    valorifiltro = miofiltro.split("=")[1].split("|")
+                    if listacolonne[1] in valorifiltro:
                         dothisfile = True
+                    else:
+                        dothisfile = False
+                        break
     return dothisfile
 
 listarigheTotali = ["disclaimer", "annonascita", "sesso", "regione", "cdl", "annocorso", "nomecorso", "ateneo", "anniuso", "anniinternet", "interesse", "computerpersonale", "os", "altroos", "dispositivo", "altrodispositivo", "attivita", "altroattivita", "sostituzionehardware", "corsoit", "ecdl", "espertoliceo", "espertouniversita", "problemi", "competenza", "elaborazioneinformazioni", "creazionecontenuti", "comunicazione", "risoluzioneproblemi", "sicurezza"]
